@@ -10,7 +10,6 @@ python norm_pred_score.py in.bed > out.bed
 
 import re
 import sys 
-from operator import itemgetter
 
 def BEDreader(fname):
     """
